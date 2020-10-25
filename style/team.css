@@ -177,16 +177,16 @@
 
 .tab {
     overflow: hidden;
-    border: 1px solid #4fc3f7;
-    background-color: #b3e5fc;
-    width: 16%;
+    /* border: 1px solid #4fc3f7;
+    background-color: #b3e5fc; */
+    /* width: 16%; */
     margin-left:40%;
-    margin-right: 40%;
+    /* margin-right: 40%; */
     margin-top: 5%;
   }
 
   .tab button {
-    background-color: inherit;
+    background-color: #9ecee4;
     float: left;
     border: none;
     outline: none;
@@ -210,18 +210,20 @@
 
   @media (max-width: 575.98px) { 
    .tab{
-    width: 50%;
-    margin-left:25%;
-    margin-right: 25%;
+    /* width: 50%;
+    
+    margin-right: 25%; */
+    margin-left:20%;
     margin-top: 5%; 
    }
    }
   
    @media (min-width: 576px) and (max-width: 767.98px) { 
     .tab{
-        width: 40%;
-        margin-left:25%;
-        margin-right: 25%;
+        /* width: 40%;
+        
+        margin-right: 25%; */
+        margin-left:20%;
         margin-top: 5%; 
        }
    }
@@ -229,9 +231,10 @@
   
    @media (min-width: 768px)  { 
     .tab{
-        width: 16%;
+        /* width: 16%;
+       
+        margin-right: 35%; */
         margin-left:40%;
-        margin-right: 35%;
         margin-top: 5%; 
        }
     }
