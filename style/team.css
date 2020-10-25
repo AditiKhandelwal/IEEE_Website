@@ -40,7 +40,7 @@
 
 
 
-h1{
+/* h1{
     text-align: center;
 }
 
@@ -48,15 +48,15 @@ h1{
   margin:0;
   padding:0;
   font-family: sans-serif;
-}
-.team-section{
+} */
+/* .team-section{
   overflow: hidden;
-  text-align: center;
+  text-align: center; */
   /*background:#043c7c ;*/
-  background-image: linear-gradient(#1976d2, #0d47a1);
+  /* background-image: linear-gradient(#1976d2, #0d47a1);
   padding:70px;
-}
-.team-section h1{
+} */
+/* .team-section h1{
   text-transform:uppercase ;
   margin-bottom: 60px;
   color:white;
@@ -118,7 +118,7 @@ h1{
        width:auto;
     
      }
-   }
+   } */
 
 
 
@@ -177,16 +177,16 @@ h1{
 
 .tab {
     overflow: hidden;
-    border: 1px solid #4fc3f7;
-    background-color: #b3e5fc;
-    width: 16%;
+    /* border: 1px solid #4fc3f7;
+    background-color: #b3e5fc; */
+    /* width: 16%; */
     margin-left:40%;
-    margin-right: 40%;
+    /* margin-right: 40%; */
     margin-top: 5%;
   }
 
   .tab button {
-    background-color: inherit;
+    background-color: #9ecee4;
     float: left;
     border: none;
     outline: none;
@@ -210,18 +210,20 @@ h1{
 
   @media (max-width: 575.98px) { 
    .tab{
-    width: 50%;
-    margin-left:25%;
-    margin-right: 25%;
+    /* width: 50%;
+    
+    margin-right: 25%; */
+    margin-left:20%;
     margin-top: 5%; 
    }
    }
   
    @media (min-width: 576px) and (max-width: 767.98px) { 
     .tab{
-        width: 40%;
-        margin-left:25%;
-        margin-right: 25%;
+        /* width: 40%;
+        
+        margin-right: 25%; */
+        margin-left:20%;
         margin-top: 5%; 
        }
    }
@@ -229,12 +231,97 @@ h1{
   
    @media (min-width: 768px)  { 
     .tab{
-        width: 16%;
+        /* width: 16%;
+       
+        margin-right: 35%; */
         margin-left:40%;
-        margin-right: 35%;
         margin-top: 5%; 
        }
     }
+
+
+    #start {
+      height:750px;
+      width: 100%;
+      background-image: url("../assets/teambg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+    }
+    #inside {
+      height: 750px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    #events {
+      padding-top: 12%;
+      padding-left: 15%;
+      padding-right: 15%;
+      color: white;
+      font-size: 200px;
+      
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    @media (max-width: 575.98px) { 
+      #events{
+        font-size: 100px;
+        padding-top: 20%;
+        padding-left: 20%;
+        padding-right: 1%;
+      }
+      #inside{
+        height: 500px;
+      }
+      #start{
+        height :500px;
+      }
+     }
+    
+     @media (min-width: 576px) and (max-width: 767.98px) { 
+      #events{
+        font-size: 100px;
+        padding-top: 20%;
+        padding-left: 6%;
+        padding-right: 6%;
+      }
+      #inside{
+        height: 500px;
+      }
+      #start{
+        height :500px;
+      }
+     }
+    
+    
+     @media (min-width: 768px) and (max-width: 996px) { 
+      #events{
+        font-size: 150px;
+        padding-top: 6%;
+        padding-left: 6%;
+      }
+      #inside{
+        height: 600px;
+      }
+      #start{
+        height :600px;
+      }
+      }
+    
+  
+    #line{
+      width:60%;
+      text-align:left;
+    
+      font-weight: 900;
+      border-width:8px;
+      margin-top: 5%;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    
 
 
 
