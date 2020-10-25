@@ -12,22 +12,194 @@
     />
 
     <!-- FONT-AWESOME ICONS -->
-    <link
-      rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
+    <script src="https://kit.fontawesome.com/88ecc5f85f.js"></script>
 
     <!-- GOOGLE FONTS -->
 
     <!-- EXTERNAL CSS -->
-    <link rel="stylesheet" href="./style/style.css" />
+
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/contact.css" />
   </head>
   <body>
     <!-- navbar
     contact details
     social media pages link and api(optional)
     footer  -->
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">IEEE- MSB</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item p-2">
+            <a class="nav-link text-center" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link text-center" href="./about.html">About</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link text-center" href="./event.html">Events</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link text-center" href="./team.html">Team</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link text-center" href="./alumini.html">Alumni</a>
+          </li>
+          <!-- <li class="nav-item p-2">
+            <a class="nav-link text-center" href="#">Sponsors</a>
+          </li> -->
+          <!-- <li class="nav-item p-2">
+            <a class="nav-link text-center" href="#">Gallery</a>
+          </li> -->
+          <li class="nav-item p-2 active">
+            <a class="nav-link text-center" href=""
+              >Contact Us<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container py-3">
+      <div
+        class="w-100 d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <div class="col-12 col-md-4">
+          <img src="../assets/contact.svg" alt="" class="w-100" />
+        </div>
+        <div class="col-12 col-md-8 justify-content-between">
+          <p class="h3 text-center">Have a Question ?</p>
+          <p class="h4 text-center">Contact Us</p>
+          <hr />
+          <form
+            action="https://formspree.io/f/mpzodeyz"
+            method="POST"
+            class="d-flex flex-wrap justify-content-center"
+          >
+            <div class="w-100 row justify-content-center m-0">
+              <div class="col-12 col-md-6">
+                <label for="fname">First Name : </label><br />
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="w-100 rounded p-2 customInput"
+                  name="fname"
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="lname">Last Name : </label><br />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="w-100 rounded p-2 customInput"
+                  name="lname"
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="mobile">Contact Number : </label><br />
+                <input
+                  type="text"
+                  placeholder="9876543210"
+                  class="w-100 rounded p-2 customInput"
+                  name="contact-number"
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="email">Email : </label><br />
+                <input
+                  type="text"
+                  placeholder="abc@sample.com"
+                  class="w-100 rounded p-2 customInput"
+                  name="email"
+                />
+              </div>
+              <div class="col-12">
+                <label for="message">Your Query / Message : </label>
+                <textarea
+                  name="message"
+                  id=""
+                  rows="5"
+                  class="customInput w-100"
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn btn-outline-secondary mx-auto" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="w-100">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.219165139413!2d77.40601690173516!3d23.217644675664864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4db3061b2d53709c!2sMANIT!5e0!3m2!1sen!2sin!4v1603645691873!5m2!1sen!2sin"
+        class="w-100"
+        height="250"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+    </div>
+    <div class="bg-dark w-100 py-2">
+      <div class="w-100 text-center">
+        <img
+          src="../assets/ieee-logo-white.png"
+          alt=""
+          class="col-6 col-md-2"
+        />
+      </div>
+      <div class="w-100">
+        <div class="d-flex justify-content-around col-12 col-md-2 mx-auto my-2">
+          <span class="socialMedia"
+            ><a href="https://www.facebook.com/IEEEMANIT" target="_blank"
+              ><i
+                class="fab fa-facebook-f border border-light rounded p-2"
+              ></i></a
+          ></span>
+          <span class="socialMedia"
+            ><a href="https://www.instagram.com/ieee_manit/" target="_blank"
+              ><i
+                class="fab fa-instagram border border-light rounded p-2"
+              ></i></a
+          ></span>
+          <!-- <span class="socialMedia"
+            ><a href="" target="_blank"
+              ><i
+                class="fab fa-linkedin-in border border-light rounded p-2"
+              ></i></a
+          ></span> -->
+          <span class="socialMedia"
+            ><a href="mailto:ritwikmishra@ieee.org" target="_blank"
+              ><i
+                class="far fa-envelope border border-light rounded p-2"
+              ></i></a
+          ></span>
+          <span class="socialMedia"
+            ><a href="https://wa.link/z0o5pb" target="_blank"
+              ><i
+                class="fab fa-whatsapp border border-light rounded p-2"
+              ></i></a
+          ></span>
+        </div>
+        <div class="w-100">
+          <div class="col-12 col-md-6 text-light text-center mx-auto">
+            Copyright 2020 IEEE - Manit Student Branch
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- JAVASCRIPT FOR BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
