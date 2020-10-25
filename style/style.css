@@ -1,0 +1,12 @@
+.socialMedia > a {
+  color: white;
+}
+.socialMedia:hover {
+  background-color: white;
+}
+.socialMedia:hover > a {
+  color: #343a40;
+}
+.sponsor {
+  background-color: bisque;
+}
