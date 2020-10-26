@@ -100,15 +100,18 @@ td, th {
 
 @media (max-width: 575.98px) {
   #events {
-    font-size: 100px;
+    font-size: 80px;
     padding-top: 35%;
     padding-left: 5%;
+    padding-right: 5%;
   }
   #inside {
-    height: 500px;
+    height: 450px;
   }
   #start {
-    height: 500px;
+    height: 450px;
+  
+ 
   }
   table {
     margin-left: 2%;

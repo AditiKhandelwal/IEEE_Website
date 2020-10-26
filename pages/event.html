@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="footer, address, phone, icons" />
-
+    <script src="https://kit.fontawesome.com/88ecc5f85f.js"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -30,7 +30,9 @@
       type="text/css"
     />
 
-    <style></style>
+    <style>
+    
+    </style>
   </head>
   <body style="background-color: white">
     <!--
@@ -78,6 +80,54 @@
       <img src="Screenshot (198).png" >
     </div>
 -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">IEEE- MSB</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item p-2 active">
+        <a class="nav-link text-center" href=""
+          >Home<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link text-center" href="./pages/about.html">About</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link text-center" href="./pages/event.html">Events</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link text-center" href="./pages/team.html">Team</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link text-center" href="./pages/alumini.html"
+          >Alumni</a
+        >
+      </li>
+      <!-- <li class="nav-item p-2">
+        <a class="nav-link text-center" href="#">Sponsors</a>
+      </li> -->
+      <!-- <li class="nav-item p-2">
+        <a class="nav-link text-center" href="#">Gallery</a>
+      </li> -->
+      <li class="nav-item p-2">
+        <a class="nav-link text-center" href="./pages/contact.html"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
     <div id="start">
       <div id="inside">
         <div id="events" class="d-flex justify-content-center">EVENTS</div>
@@ -287,7 +337,22 @@
         </div>
       </div>
     </div>
-    <script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script type="text/javascript">
+    (function($) {          
+        $(document).ready(function(){                    
+            $(window).scroll(function(){                          
+                if ($(this).scrollTop() > 600) {
+                    $('.navbar').fadeIn(500);
+                } else {
+                    $('.navbar').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+    </script>
+    <!-- <script>
       function myFunction1() {
         document.getElementById("text").innerHTML = document.getElementById(
           "event1"
@@ -308,8 +373,8 @@
           "event4"
         ).innerHTML;
       }
-    </script>
-
+    </script> -->
+   
     <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
 
     <!-- Include to use $addClass, $toggleClass or $removeClass -->
