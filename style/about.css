@@ -1,0 +1,22 @@
+#start {
+  height: 750px;
+  width: 100%;
+  background-image: url(../assets/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#inside {
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#about {
+  padding-top: 12%;
+  padding-left: 21%;
+  padding-right: 21%;
+  color: white;
+  font-size: 200px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
