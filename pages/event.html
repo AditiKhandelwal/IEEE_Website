@@ -23,6 +23,8 @@
     <title>Events</title>
 
     <link rel="stylesheet" href="../style/event.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+
     <script src="https://kit.fontawesome.com/88ecc5f85f.js"></script>
     <link
       href="http://fonts.googleapis.com/css?family=Cookie"
@@ -78,48 +80,52 @@
       <img src="Screenshot (198).png" >
     </div>
 -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">IEEE- MSB</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="">Home</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./about.html">About</a>
-          </li>
-          <li class="nav-item p-2 active">
-            <a class="nav-link text-center" href="./event.html"
-              >Events<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./team.html">Team</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./alumini.html">Alumni</a>
-          </li>
-          <!-- <li class="nav-item p-2">
-        <a class="nav-link text-center" href="#">Sponsors</a>
-      </li> -->
-          <!-- <li class="nav-item p-2">
-        <a class="nav-link text-center" href="#">Gallery</a>
-      </li> -->
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./contact.html">Contact Us</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none myNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">IEEE- MSB</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./about.html">About</a>
+            </li>
+            <li class="nav-item p-2 active">
+              <a class="nav-link text-center" href="#"
+                >Events<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./team.html">Team</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./alumini.html">Alumni</a>
+            </li>
+            <!-- <li class="nav-item p-2">
+  <a class="nav-link text-center" href="#">Sponsors</a>
+  </li> -->
+            <!-- <li class="nav-item p-2">
+  <a class="nav-link text-center" href="#">Gallery</a>
+  </li> -->
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div id="start">
@@ -331,21 +337,13 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <!-- JAVASCRIPT FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-      (function ($) {
-        $(document).ready(function () {
-          $(window).scroll(function () {
-            if ($(this).scrollTop() > 600) {
-              $(".navbar").fadeIn(500);
-            } else {
-              $(".navbar").fadeOut(500);
-            }
-          });
-        });
-      })(jQuery);
-    </script>
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script type="text/javascript" src="../js/index.js"></script>
     <!-- <script>
       function myFunction1() {
         document.getElementById("text").innerHTML = document.getElementById(
