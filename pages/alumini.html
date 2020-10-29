@@ -19,67 +19,57 @@
     <title>Alumni</title>
 
     <link rel="stylesheet" href="../style/alumini.css" />
-    <link
-      rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Cookie"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <style></style>
+    <link rel="stylesheet" href="../style/style.css">
   </head>
   <body style="background-color: white">
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">IEEE- MSB</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item p-2">
-          <a class="nav-link text-center" href=""
-            >Home</a
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none myNav">
+        <div class="container">
+          <a class="navbar-brand" href="#">IEEE- MSB</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </li>
-        <li class="nav-item p-2">
-          <a class="nav-link text-center" href="./about.html">About</a>
-        </li>
-        <li class="nav-item p-2">
-          <a class="nav-link text-center" href="./event.html">Events</a>
-        </li>
-        <li class="nav-item p-2">
-          <a class="nav-link text-center" href="./team.html">Team</a>
-        </li>
-        <li class="nav-item p-2 active">
-          <a class="nav-link text-center" href="./alumini.html"
-            >Alumni<span class="sr-only">(current)</span></a
-          >
-        </li>
-        <!-- <li class="nav-item p-2">
-          <a class="nav-link text-center" href="#">Sponsors</a>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item p-2">
+                <a class="nav-link text-center" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item p-2 ">
+                <a class="nav-link text-center" href="./about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link text-center" href="./event.html">Events</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link text-center" href="./team.html">Team</a>
+              </li>
+              <li class="nav-item p-2 active">
+                <a class="nav-link text-center" href="#">Alumni<span class="sr-only">(current)</span></a>
+              </li>
+              <!-- <li class="nav-item p-2">
+        <a class="nav-link text-center" href="#">Sponsors</a>
         </li> -->
-        <!-- <li class="nav-item p-2">
-          <a class="nav-link text-center" href="#">Gallery</a>
+              <!-- <li class="nav-item p-2">
+        <a class="nav-link text-center" href="#">Gallery</a>
         </li> -->
-        <li class="nav-item p-2">
-          <a class="nav-link text-center" href="./contact.html"
-            >Contact Us</a
-          >
-        </li>
-      </ul>
-    </div>
-  </nav>
+              <li class="nav-item p-2">
+                <a class="nav-link text-center" href="./contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div id="start">
       <div id="inside">
         <div id="events" class="d-flex justify-content-center">ALUMNI</div>
@@ -855,38 +845,15 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-
-    <script type="text/javascript">
-    (function($) {          
-        $(document).ready(function(){                    
-            $(window).scroll(function(){                          
-                if ($(this).scrollTop() > 600) {
-                    $('.navbar').fadeIn(500);
-                } else {
-                    $('.navbar').fadeOut(500);
-                }
-            });
-        });
-    })(jQuery);
-    </script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="./js/index.js"></script>
+    <!-- JAVASCRIPT FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>
