@@ -19,65 +19,55 @@
     <title>Team</title>
 
     <link rel="stylesheet" href="../style/team.css" />
-    <link
-      rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Cookie"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <style></style>
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">IEEE- MSB</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item p-2 active">
-            <a class="nav-link text-center" href=""
-              >Home<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./about.html">About</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./event.html">Events</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./team.html">Team</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./alumini.html"
-              >Alumni</a
-            >
-          </li>
-          <!-- <li class="nav-item p-2">
-            <a class="nav-link text-center" href="#">Sponsors</a>
-          </li> -->
-          <!-- <li class="nav-item p-2">
-            <a class="nav-link text-center" href="#">Gallery</a>
-          </li> -->
-          <li class="nav-item p-2">
-            <a class="nav-link text-center" href="./contact.html"
-              >Contact Us</a
-            >
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none myNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">IEEE- MSB</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item p-2 active">
+              <a class="nav-link text-center" href="#"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./event.html">Events</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./team.html">Team</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./alumini.html">Alumni</a>
+            </li>
+            <!-- <li class="nav-item p-2">
+      <a class="nav-link text-center" href="#">Sponsors</a>
+      </li> -->
+            <!-- <li class="nav-item p-2">
+      <a class="nav-link text-center" href="#">Gallery</a>
+      </li> -->
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -100,16 +90,12 @@
     </div>
 
     <div
-      style="
-        
-        perspective: 10000px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
-      "
-      id="tabcontent" 
+      style="perspective: 10000px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7)"
+      id="tabcontent"
     >
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
         <div class="col mb-4" style="padding: 40px">
-          <div class="container ">
+          <div class="container">
             <img
               src="../assets/faculty/jyotisinghai.jpeg"
               alt="Avatar"
@@ -282,10 +268,7 @@
              </div>  -->
     </div>
 
-    <div
-      style=" display: none"
-      id="final"
-    >
+    <div style="display: none" id="final">
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
         <div class="col mb-4" style="padding: 40px">
           <div class="container">
@@ -488,10 +471,7 @@
       </div>
     </div>
 
-    <div
-      style=" display: none"
-      id="prefinal"
-    >
+    <div style="display: none" id="prefinal">
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
         <div class="col mb-4" style="padding: 40px">
           <div class="container">
@@ -694,94 +674,91 @@
       </div>
     </div>
 
-    <div
-      style="display: none"
-      id="faculty"
-    >
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+    <div style="display: none" id="faculty">
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/jyotisinghai.jpeg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Jyoti Singhai</h5>
               <p>Branch Counsellor</p>
             </div>
           </div>
         </div>
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/Manisha_Dubey.jpg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Manisha Dubey</h5>
               <p>Faculty Coordinator</p>
             </div>
           </div>
         </div>
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/default.jpg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Lalita Gupta</h5>
               <p>Faculty Co-Coordinator</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+        <!-- </div> -->
+        <!-- <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3"> -->
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/SangeetaNakhate.jpg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Sangeeta Nakhate</h5>
               <p>Faculty Co-Coordinator</p>
             </div>
           </div>
         </div>
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/default.jpg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Giribabu Dyanamina</h5>
               <p>Faculty Co-Coordinator</p>
             </div>
           </div>
         </div>
-        <div class="col mb-4" style="padding: 40px">
-          <div class="container">
+        <div class="col-12 col-md-3 m-1 mb-4" style="padding: 40px">
+          <div class="container" style="width: max-content !important">
             <img
               src="../assets/faculty/savitanema.jpeg"
               alt="Avatar"
-              class="image"
+              class="image mx-auto"
             />
-            <div class="overlay">
+            <div class="overlay mx-auto">
               <h5>Dr. Savita Nema</h5>
               <p>Faculty Co-Coordinator</p>
             </div>
           </div>
         </div>
+        <!-- </div> -->
       </div>
     </div>
-
     <div class="bg-dark w-100 py-2">
       <div class="w-100 text-center">
         <img
@@ -830,21 +807,7 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
 
-    <script type="text/javascript">
-    (function($) {          
-        $(document).ready(function(){                    
-            $(window).scroll(function(){                          
-                if ($(this).scrollTop() > 600) {
-                    $('.navbar').fadeIn(500);
-                } else {
-                    $('.navbar').fadeOut(500);
-                }
-            });
-        });
-    })(jQuery);
-    </script>
     <script>
       function func(evt, i) {
         if (i == 1) {
@@ -874,24 +837,11 @@
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("3").click();
     </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    <!-- JAVASCRIPT FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>

@@ -10,3 +10,73 @@
 .sponsor {
   background-color: bisque;
 }
+.main {
+  height: 100vh;
+  background-color: lightgreen;
+}
+.myNav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+.magicParent{
+  overflow: hidden;
+}
+.magic{
+  transition: transform .5s ease;
+}
+.magic:hover{
+  transform: scale(1.2);
+}
+#title{
+  font-size: 200px;
+  color:white
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
