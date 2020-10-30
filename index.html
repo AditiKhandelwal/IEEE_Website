@@ -10,11 +10,14 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
-
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <!-- FONT-AWESOME ICONS -->
     <script src="https://kit.fontawesome.com/88ecc5f85f.js"></script>
     <!-- GOOGLE FONTS -->
-
+    <link
+      rel="stylesheet"
+      href="https://anijs.github.io/lib/anicollection/anicollection.css"
+    />
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="./style/style.css" />
   </head>
@@ -82,6 +85,7 @@
     </nav>
     <div class="container-fluid main">
       <div
+      data-anijs="if: scroll,on: window, do: bounceIn animated, before: scrollReveal"
         class="container h-100 d-flex justify-content-center align-items-center h1"
         id=""
       >
@@ -91,7 +95,7 @@
     <div
       class="row m-auto my-2 p-0 py-5 container justify-content-around align-items-center"
     >
-      <div class="col-12">
+      <div  data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal" class="col-12">
         <p class="text-center h3"><strong>About IEEE - MSB</strong></p>
         <hr />
         <p>
@@ -124,10 +128,10 @@
         </p>
       </div>
     </div>
-    <div class="container py-3">
+    <div  data-anijs="if: scroll,on: window, do: fadeIn animated, before: scrollReveal" class="container py-3 ">
       <p class="text-center h3"><strong>Our Events</strong></p>
       <hr />
-      <div class="px-2 row justify-content-around align-items-center py-3">
+      <div data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" class="px-2 row justify-content-around align-items-center py-3 "  style="background-color: rgb(131, 128, 128);">
         <div class="col-12 col-md-4 magicParent p-1 border border-dark">
           <img
             src="./assets/aarambh/20.jpg"
@@ -135,14 +139,10 @@
             class="w-100 magic"
           />
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" >
           <p class="text-center h3"><strong>Aarambh</strong></p>
           <hr />
-          <p>
-            AARAMBH endeavours to bridge the chasm between the under privileged
-            and their access and understanding of science, arising due to
-            economic limitations.
-          </p>
+         
           <p>
             It is a social initiative, organised by IEEE MSB, that focuses on
             encompassing a large number of students across numerous under
@@ -153,8 +153,8 @@
           </p>
         </div>
       </div>
-      <div
-        class="px-2 row justify-content-around align-items-center flex-row-reverse py-3"
+      <div data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"
+        class="px-2 row justify-content-around align-items-center flex-row-reverse py-3" style="background-color: rgb(200,200,200);"
       >
         <div class="col-12 col-md-4 magicParent p-1 border border-dark">
           <img
@@ -166,21 +166,10 @@
         <div class="col-12 col-md-6">
           <p class="text-center h3"><strong>Samwad</strong></p>
           <hr />
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-            temporibus nisi quaerat cupiditate tenetur dolore, ratione in amet
-            accusamus dolor voluptates reiciendis ipsum, maxime inventore ad at?
-            Asperiores, neque officiis!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum
-            aut dolore necessitatibus hic facere inventore culpa voluptate esse
-            sunt, exercitationem aliquid maxime laudantium doloribus sit
-            accusantium adipisci expedita quas.
-          </p>
+          <p>IEEE MSB every year orchestrates an event  “SAMWAD“ under WIE, to realize the indomitable spirit of women and to praise and promote their significant contribution. </p>
         </div>
       </div>
-      <div class="px-2 row justify-content-around align-items-center py-3">
+      <div data-anijs="if: scroll,on: window, do: fadeInRight animated, before: scrollReveal" class="px-2 row justify-content-around align-items-center py-3 " style="background-color: rgb(131, 128, 128);" >
         <div class="col-12 col-md-4 magicParent p-1 border border-dark">
           <img
             src="./assets/sceecs/1.jpg"
@@ -188,30 +177,18 @@
             class="w-100 magic"
           />
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 " >
           <p class="text-center h3"><strong>SCEECS</strong></p>
           <hr />
           <p>
-            Our country though it produces bright young minds is never able to
-            keep the scintillating flame of inquisitiveness glimmering. The
-            event SCEECS is one such effort to revamp this situation. The reason
-            for organizing SCEECS is to keep alive the blazing inferno of
-            curiosity in the ignited young minds of our nation.
+            This conference helps  to  publish research papers on IEEE Xplore (congregation of research papers published by scholars from all around the world over several years), providing  the people  with a plethora from which their research could be well accessed by anyone in the world. IEEE Xlpore acts as an user friendly interface which provides information about any relevant topic  at just one finger's click. The  papers published through this conference are conveniently available and accessible.  Had the papers not been published the world could have been deprived of important research. Felicitating the work , publishing it and uploading it on the world wide web, making  it more accessible and portable to anyone in the world is what the conference is about.
           </p>
           <p>
-            The event lures young trailblazers from across the nation and
-            provides them with an opportunity and a platform to showcase their
-            brilliance, through an a established procedure . It is an ebullient
-            coalescence of technical workshops and guest lectures by prominent
-            personalities and a conference. The main directive of the event is
-            the research paper conference, with a prime objective to create an
-            environment that facilitates research work and promotes researches
-            for the development of our country.
-          </p>
+            
         </div>
       </div>
-      <div
-        class="px-2 row justify-content-around align-items-center flex-row-reverse py-3"
+      <div data-anijs="if: scroll,on: window, do: fadeInLeft animated, before: scrollReveal"
+        class="px-2 row justify-content-around align-items-center flex-row-reverse py-3" style="background-color: rgb(200,200,200);"
       >
         <div class="col-12 col-md-4 magicParent p-1 border border-dark">
           <img
@@ -224,17 +201,9 @@
           <p class="text-center h3"><strong>Srajan</strong></p>
           <hr />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-            temporibus nisi quaerat cupiditate tenetur dolore, ratione in amet
-            accusamus dolor voluptates reiciendis ipsum, maxime inventore ad at?
-            Asperiores, neque officiis!
+            SRAJAN is a biennial case study event organized by IEEE MSB.With the tagline - Ideate | | Innovate | | Create , the principal directive of SRAJAN, is to bring to light the  technological innovations that have the potential to  resolve the  simple  quotidian problemsand to cherish these ideas. The event lures young trailblazers and gives them a National Level platform to their innovations.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum
-            aut dolore necessitatibus hic facere inventore culpa voluptate esse
-            sunt, exercitationem aliquid maxime laudantium doloribus sit
-            accusantium adipisci expedita quas.
-          </p>
+          
         </div>
       </div>
     </div>
@@ -330,6 +299,12 @@
         </div>
       </div>
     </div>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+
+    <!-- Include to use $addClass, $toggleClass or $removeClass -->
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
     <!-- JAVASCRIPT FOR BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

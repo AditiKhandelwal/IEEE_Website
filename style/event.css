@@ -7,11 +7,7 @@
 html {
   overflow-x: hidden;
 }
-body {
-  /* font-family: "Raleway", sans-serif; */
-  /* font-size: 14px; */
-  /* background: white; */
-}
+
 h1,
 h2,
 h3,
@@ -26,7 +22,7 @@ h6 {
 
 p {
   /* font-family: "Raleway", sans-serif; */
-  color: #6a6a6a;
+  
   font-size: 14px;
 
   font-weight: 500;
@@ -135,35 +131,13 @@ p {
   width: 400px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-html {
-  overflow-x: hidden;
-}
+
 body {
   font-size: 14px;
   background: white;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #262626;
-
-  font-weight: 700;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
-p {
-  /* font-family: "Raleway", sans-serif; */
-  color: #6a6a6a;
-  font-size: 14px;
-
-  font-weight: 500;
-}
 
 a,
 a:hover,
@@ -204,3 +178,4 @@ a:focus {
 #eventss {
   margin-top: 40px;
 }
+
