@@ -16,10 +16,13 @@
       crossorigin="anonymous"
     />
     <link
-    rel="stylesheet"
-    href="https://anijs.github.io/lib/anicollection/anicollection.css"
-  />
-  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+      rel="stylesheet"
+      href="https://anijs.github.io/lib/anicollection/anicollection.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap"
+      rel="stylesheet"
+    />
     <title>Team</title>
 
     <link rel="stylesheet" href="../style/team.css" />
@@ -45,16 +48,16 @@
             <li class="nav-item p-2">
               <a class="nav-link text-center" href="../index.html">Home</a>
             </li>
-            <li class="nav-item p-2 active">
-              <a class="nav-link text-center" href="#"
-                >About<span class="sr-only">(current)</span></a
-              >
+            <li class="nav-item p-2">
+              <a class="nav-link text-center" href="./about.html">About</a>
             </li>
             <li class="nav-item p-2">
               <a class="nav-link text-center" href="./event.html">Events</a>
             </li>
-            <li class="nav-item p-2">
-              <a class="nav-link text-center" href="./team.html">Team</a>
+            <li class="nav-item p-2 active">
+              <a class="nav-link text-center" href="#"
+                >Team<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item p-2">
               <a class="nav-link text-center" href="./alumni.html">Alumni</a>
@@ -77,11 +80,15 @@
 
     <div id="start">
       <div id="insideteam">
-        <div  data-anijs="if: scroll,on: window, do: bounceIn animated, before: scrollReveal" id="events" class="d-flex justify-content-center">OUR TEAM</div>
+        <div
+          data-anijs="if: scroll,on: window, do: bounceIn animated, before: scrollReveal"
+          id="events"
+          class="d-flex justify-content-center"
+        >
+          OUR TEAM
+        </div>
       </div>
     </div>
-
-    <hr id="line" />
 
     <div class="tab d-flex justify-content-center">
       <button class="tablinks" onclick="func(event,3)" id="3">Faculty</button>
@@ -93,7 +100,8 @@
       </button>
     </div>
 
-    <div style="background-color: rgb(200, 200, 200);"
+    <div
+      style="background-color: rgb(200, 200, 200)"
       style="perspective: 10000px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7)"
       id="tabcontent"
     >
@@ -842,12 +850,12 @@
       document.getElementById("3").click();
     </script>
 
-<script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
 
-<!-- Include to use $addClass, $toggleClass or $removeClass -->
-<script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <!-- Include to use $addClass, $toggleClass or $removeClass -->
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 
-<script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
     <!-- JAVASCRIPT FOR BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

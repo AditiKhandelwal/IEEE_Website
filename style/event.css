@@ -22,7 +22,7 @@ h6 {
 
 p {
   /* font-family: "Raleway", sans-serif; */
-  
+
   font-size: 14px;
 
   font-weight: 500;
@@ -63,7 +63,7 @@ p {
 
 @media (max-width: 575.98px) {
   #events {
-    font-size: 90px;
+    font-size: 58px;
     padding-top: 30%;
     padding-left: 15%;
     padding-right: 15%;
@@ -131,13 +131,11 @@ p {
   width: 400px;
 }
 
-
 body {
   font-size: 14px;
   background: white;
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: "Sawarabi Mincho", sans-serif;
 }
-
 
 a,
 a:hover,
@@ -178,4 +176,3 @@ a:focus {
 /* #eventss {
   margin-top: 40px;
 } */
-
