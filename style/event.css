@@ -46,7 +46,7 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#inside {
+#insideevent {
   height: 750px;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -68,7 +68,7 @@ p {
     padding-left: 15%;
     padding-right: 15%;
   }
-  #inside {
+  #insideevent {
     height: 450px;
   }
   #start {
@@ -83,7 +83,7 @@ p {
     padding-left: 18%;
     padding-right: 18%;
   }
-  #inside {
+  #insideevent {
     height: 500px;
   }
   #start {
@@ -98,7 +98,7 @@ p {
     padding-left: 20%;
     padding-right: 20%;
   }
-  #inside {
+  #insideevent {
     height: 600px;
   }
   #start {
