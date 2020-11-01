@@ -98,7 +98,33 @@ th {
   text-decoration: underline;
 }
 
-@media (max-width: 575.98px) {
+@media(min-width:359px) and (max-width: 575.98px) {
+  #events {
+    font-size: 58px;
+    padding-top: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* #inside {
+    height: 450px;
+  }
+  #start {
+    height: 450px;
+  } */
+  table {
+    margin-left: 2%;
+   
+    margin-bottom: 5%;
+  }
+  td,
+th {
+  /* font-size: 15px; */
+  padding: 10px;
+  width: 200px;
+}
+}
+
+@media(max-width:359px){
   #events {
     font-size: 58px;
     padding-top: 60%;
