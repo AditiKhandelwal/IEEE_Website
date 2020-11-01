@@ -64,16 +64,16 @@ p {
 @media (max-width: 575.98px) {
   #events {
     font-size: 58px;
-    padding-top: 30%;
+    padding-top: 60%;
     padding-left: 15%;
     padding-right: 15%;
   }
-  #bgevent {
+  /* #bgevent {
     height: 450px;
   }
   #start {
     height: 450px;
-  }
+  } */
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

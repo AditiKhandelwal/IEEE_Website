@@ -148,16 +148,16 @@ body{
 
 @media (max-width: 575.98px) {
   #events {
-    font-size: 80px;
-    padding-top: 20%;
+    font-size: 58px;
+    padding-top: 50%;
     padding-left: 5%;
     padding-right: 5%;
   }
   #insideteam {
-    height: 450px;
+    height: 600px;
   }
   #start {
-    height: 450px;
+    height: 600px;
   }
 }
 

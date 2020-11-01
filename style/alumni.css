@@ -101,18 +101,25 @@ th {
 @media (max-width: 575.98px) {
   #events {
     font-size: 58px;
-    padding-top: 50%;
+    padding-top: 60%;
     padding-left: 5%;
     padding-right: 5%;
   }
-  #inside {
+  /* #inside {
     height: 450px;
   }
   #start {
     height: 450px;
-  }
+  } */
   table {
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 5%;
   }
+  td,
+th {
+  font-size: 15px;
+  padding: 5px;
+  width: 15px;
+}
 }
