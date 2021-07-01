@@ -21,6 +21,16 @@
   /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 
+.about_IEEE,.about_IEEE_bombay,.about_manit{
+  background-color: #1a1a1a;
+  color:#ffffff;
+  background-image: url(../assets/ab3.png);
+  background-size: 20%;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Sawarabi Mincho", sans-serif;
 }

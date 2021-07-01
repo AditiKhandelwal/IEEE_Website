@@ -76,7 +76,7 @@ body{
 @media (max-width: 575.98px) {
   .tab {
     /* width: 50%;
-    
+
     margin-right: 25%; */
     margin-left: 9%;
     margin-right: 9%;
@@ -104,7 +104,7 @@ body{
 @media (min-width: 576px) and (max-width: 767.98px) {
   .tab {
     /* width: 40%;
-        
+
         margin-right: 25%; */
     margin-left: 20%;
     margin-right: 20%;
@@ -115,7 +115,7 @@ body{
 @media (min-width: 768px) {
   .tab {
     /* width: 16%;
-       
+
         margin-right: 35%; */
     margin-left: 40%;
     margin-top: 5%;
@@ -132,6 +132,7 @@ body{
   background-attachment: fixed;
 }
 #insideteam {
+
   height: 750px;
   background-color: rgba(0, 0, 0, 0.7);
 }

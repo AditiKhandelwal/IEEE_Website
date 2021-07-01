@@ -4,9 +4,9 @@ $(document).ready(() => {
     console.log(window.innerHeight);
     if ($(this).scrollTop() > window.innerHeight / 2) {
       console.log("hello");
-      $("nav.navbar").removeClass("d-none");
+      $("nav.navbar").addClass("transparent");
     } else {
-      $("nav.navbar").addClass("d-none");
+      $("nav.navbar").removeClass("transparent");
     }
   });
 });
