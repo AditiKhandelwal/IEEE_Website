@@ -37,14 +37,26 @@ scroll-behavior: smooth;
 }
 #intro .intro-container {
     position: absolute;
-    bottom: 40px;
-    /* left: 43%; */
     padding: 0 15px;
     color: #ffffff;
 }
+@media (min-width:672px) {
+  #intro .intro-container
+  {
+    bottom: 15px;
+    left: 43.8%;
+  }
+}
+@media (max-width:672px) {
+  #intro .intro-container
+  {
+    bottom: 40px;
+    left: 80px;
+  }
+}
 .video video {
     position: absolute;
-    top: 40%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* min-height: 100%; */
