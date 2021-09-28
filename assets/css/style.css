@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@500;700&display=swap");
-
-
 #home2 h1,
 h2,
 h3,
@@ -62,6 +60,7 @@ a {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
+
 
 /* Header Section */
 
@@ -222,7 +221,6 @@ a {
 }
 
 
-
 /* Button */
 
 .btn1 {
@@ -235,6 +233,24 @@ a {
     border: 1px solid transparent;
     color: #ffffff;
     background-color: #ff0055;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #ff0055;
+    border: 2px solid #ff0055;
+    background-color: #ffffff;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -261,8 +277,31 @@ a {
     border-radius: 5px;
 }
 
+.btn2::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(293deg, #f86f64 0%, #fd5392fe 100%) !important;
+    background: -o-linear-gradient(293deg, #f86f64 0%, #fd5392fe 100%) !important;
+    background: linear-gradient(157deg, #f86f64 0%, #fd5392fe 100%) !important;
+    z-index: -1;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border-radius: 5px;
+}
+
 @media (max-width: 575.98px) {
     .btn1 {
+        padding: 8px 25px;
+        border-radius: 10px;
+    }
+    .btn2 {
         padding: 8px 25px;
         border-radius: 10px;
     }
@@ -275,11 +314,23 @@ a {
     border: 2px solid #fd424d;
 }
 
+.btn2:hover {
+    /* border: 1px solid #fd424d; */
+    color: #fff;
+    background-color: #ff0055;
+    border: 2px solid #fff;
+    transform: scale(1.05);
+}
+
 .btn1:hover::after {
     opacity: 0;
     visibility: hidden;
 }
 
+.btn2:hover::after {
+    opacity: 0;
+    visibility: hidden;
+}
 
 
 /* Default */
