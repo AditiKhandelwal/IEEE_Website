@@ -9,4 +9,5 @@ $(document).ready(() => {
       $("nav.navbar").removeClass("transparent");
     }
   });
+  $('#myModal').modal('show');
 });
