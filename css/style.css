@@ -3299,7 +3299,7 @@ Page Title
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 160px 0;
+    padding: 250px 0;
     background: #F5F7FC;
 }
 
@@ -3327,9 +3327,9 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000ec1;
-    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 100%, #000c47 100%);
-    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 100%, #000c47 100%);
+    /* background: #000ec1;
+    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 60%, #000c47 60%); */
+    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 60%, #000c47 60%);
     content: "";
     opacity: .9;
 }
@@ -3495,7 +3495,7 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(1, 12, 52, 0.9);
+    background-color: rgba(1, 12, 52, 0.7);
 }
 
 .main-slider .tp-dottedoverlay:before {
@@ -5292,7 +5292,7 @@ a.ui-button:active,
     position: relative;
     font-size: 68px;
     line-height: 1em;
-    color: #fe00c5;
+    color: #001efe;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -9887,7 +9887,7 @@ Accordian Box
 }
 
 .gallery-section.style-two {
-    padding: 100px 0;
+    padding: 10px 10px 10px 10px;
 }
 
 .gallery-section.style-two .row {
